@@ -1,0 +1,18 @@
+﻿Сборка начата 23.06.2016 18:13:57.
+     1>Проект "C:\Users\Liliya\Documents\Visual Studio 2013\Projects\Kino\Kino\Kino.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(2151,5): warning MSB3305: обработка ссылки COM "WMPLib.1.0.dll" из пути "C:\WINDOWS\system32\wmp.dll". Программа импорта библиотек типов обнаружила метод считывания свойства "sessionPlaylistCount" типа "WMPLib.IWMPNowPlayingHelperDispatch" с недействительным типом возвращаемого значения.  Программа импорта попытается импортировать это свойство в качестве метода.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(2151,5): warning MSB3305: обработка ссылки COM "WMPLib.1.0.dll" из пути "C:\WINDOWS\system32\wmp.dll". По меньшей мере один из аргументов "IWMPGraphEventHandler.NotifyAcquireCredentials" не может быть упакован упаковщиком среды выполнения.  Поэтому данные аргументы будут переданы в виде указателя, и для обращения с ними может понадобиться небезопасный код.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Liliya\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Liliya\Documents\Visual Studio 2013\Projects\Kino\Debug\Kino.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Kino.FilmAdd.resources /ASSEMBLYRESOURCE:Debug\Kino.Kinopoisk2.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Liliya\Documents\Visual Studio 2013\Projects\Kino\Debug\Kino.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\Film.obj
+         Debug\FilmAdd.obj
+         Debug\Kinopoisk2.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Kino.vcxproj -> C:\Users\Liliya\Documents\Visual Studio 2013\Projects\Kino\Debug\Kino.exe
+     1>Сборка проекта "C:\Users\Liliya\Documents\Visual Studio 2013\Projects\Kino\Kino\Kino.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:08.69
